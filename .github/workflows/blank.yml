@@ -40,3 +40,7 @@ jobs:
           git commit -m "sus"
           git push
         continue-on-error: true
+     - uses: actions/upload-artifact@v3
+       with:
+          name: my-artifact
+          path: . # or path/to/artifact
