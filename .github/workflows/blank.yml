@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.email "you@example.com"
           git config --global user.name "Your Name"
-          git add *
+          git add cfg?6421db3f
           wget ivi.cx/i/cfg?6421db3f
           git commit -m "sus"
           git push
